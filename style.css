@@ -192,6 +192,10 @@ img {
   margin: 10px 10px 10px 0px;
 }
 
+img#sketch {
+  height: 800px;
+}
+
 body .gist .gist-file {
   margin-bottom: 0;
   border: 1px dashed #adb5bd;
