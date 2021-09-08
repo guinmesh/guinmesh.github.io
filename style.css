@@ -192,7 +192,9 @@ img {
   margin: 10px 10px 10px 0px;
 }
 
-img#sketch {
+/* images that are sketches */
+
+#sketch {
   height: 800px;
 }
 
