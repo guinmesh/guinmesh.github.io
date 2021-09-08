@@ -138,7 +138,7 @@ li a {
 
 /* table styles */
 
-table th, td {
+table, tbody {
   border: 1px solid black;
   border-collapse: collapse;
 }
