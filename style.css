@@ -139,7 +139,7 @@ li a {
 
 /* table styles */
 
-table, tbody {
+table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
