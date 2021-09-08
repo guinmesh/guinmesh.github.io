@@ -189,8 +189,7 @@ img {
   height: 400px;
   display: inline-block;
   float: left;
-  margin-bottom: 2%;
-  margin-right: 2%;
+  margin: 2%;
 }
 
 body .gist .gist-file {
