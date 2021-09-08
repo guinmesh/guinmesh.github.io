@@ -106,11 +106,11 @@ ul {
   color: #BEBEBE;
 }
 
-ol li {
+/* ol li {
   font-size: 12pt;
   list-style-type: counter;
   padding-bottom: 1em;
-}
+} */
 
 /* ul.table {
   list-style-type: circle;
