@@ -5,11 +5,12 @@ body {
   margin: 2em;
   width: 100%;
   height: 100%;
-  --theme-ui-colors-brand-blue: #002FA7;
+  --theme-ui-colors-brand-blue: #1F18C0;
+  color: #fff;
 }
 
 h1 {
-  color: #0000EE;
+  color: #fff;
   font-size: 22pt;
 }
 .special-h2{
@@ -17,19 +18,19 @@ h1 {
 }
 h2 {
   font-size: 18pt;
-  color: #0000EE;
+  color: #fff;
 /*   margin-top:0; */
 }
 h3 {
-  color: #0000EE;
+  color: #fff;
   font-style: italic;
 }
 
 button {
   font-family: "Helvetica Neue", onospace;
-  background-color: black;
+  background-color: #fff;
   border: none;
-  color: white;
+  color: #1F18C0;
   padding: 10px 10px;
   width: 100%;
   /*   text-align: center; */
@@ -73,7 +74,7 @@ p {
   height: 100%;
   display: inline-block;
   float: left;
-  /*     background-color:red; */
+  /*     background:red; */
 }
 
 .content {
@@ -103,7 +104,7 @@ ul {
 }
 
 .citation-img {
-  color: #BEBEBE;
+  color: #fff;
 }
 
 /* ol li {
@@ -129,12 +130,12 @@ li.bullet {
 }
 
 li.bullet a {
-  color: #0000EE;
+  color: #fff;
 }
 
 li a {
-  color: black;
-  /*   text-decoration: none; */
+  color: #fff;
+  text-decoration: underline;
 }
 
 /* table styles */
@@ -164,7 +165,8 @@ a:hover {
 }
 
 h1 a:visited {
-  color: #0000EE;
+  color: #fff;
+  text-decoration: underline;
 }
 
 iframe {
@@ -207,7 +209,7 @@ body .gist .gist-file {
 body .gist .gist-data {
   border-bottom: none;
   border-radius: 0;
-  background-color: #f1f3f5;
+  background-color: #1F18C0;
 }
 
 body .gist .blob-wrapper {
@@ -235,11 +237,11 @@ body .gist tr:last-child td {
   padding-bottom: 15px !important;
 }
 
-body .gist .blob-num {
+/* body .gist .blob-num {
   color: #ced4da;
   background-color: #495057;
   pointer-events: none;
-}
+} */
 
 body .gist .gist-meta {
   display: none;
@@ -252,7 +254,7 @@ body .gist .gist-meta {
 }
 .nav-link a,
 .nav-link a:visited {
-  color: black;
+  color: #fff;
   text-decoration: none;
 }
 
