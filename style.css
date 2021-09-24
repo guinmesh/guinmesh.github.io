@@ -7,6 +7,7 @@ body {
   height: 100%;
   --theme-ui-colors-brand-blue: #1F18C0;
   color: #fff;
+  background-color: #1F18C0;
 }
 
 h1 {
