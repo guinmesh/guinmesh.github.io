@@ -154,7 +154,12 @@ ul th, td {
 
 /* link decoration */
 
-.nav a {
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* .nav a {
   text-decoration: none;
   color: #fff;
 }
@@ -162,16 +167,16 @@ ul th, td {
 body a {
   text-decoration: underline;
   color: #fff;
-}
+} */
 
 a:hover {
   text-decoration: underline;
 }
 
-h1 a:visited {
+/* h1 a:visited {
   color: #fff;
   text-decoration: underline;
-}
+} */
 
 iframe {
   margin: 0;
