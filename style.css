@@ -168,6 +168,11 @@ a:-webkit-any-link {
   color: #fff;
 }
 
+.nav a { 
+  color: white;
+  text-decoration: none;
+}
+
 iframe {
   margin: 0;
   padding: 0;
