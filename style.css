@@ -173,6 +173,11 @@ a:-webkit-any-link {
   text-decoration: none;
 }
 
+.nav li {
+  color: white;
+  text-decoration: none;
+}
+
 iframe {
   margin: 0;
   padding: 0;
