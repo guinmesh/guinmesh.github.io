@@ -156,10 +156,12 @@ ul th, td {
 
 .nav a {
   text-decoration: none;
+  color: #fff;
 }
 
 body a {
   text-decoration: underline;
+  color: #fff;
 }
 
 a:hover {
