@@ -5,7 +5,7 @@ body {
   margin: 2em;
   width: 100%;
   height: 100%;
-  --theme-ui-colors-brand-blue: #1F18C0;
+  --theme-ui-colors-brand-blue: #fff;
   color: #fff;
   background-color: #1F18C0 !important;
 }
