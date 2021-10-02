@@ -95,9 +95,11 @@ ul {
   padding: 0;
 }
 
-/* .citation li::before {
+.citation li::before {
+  list-style-type: counter;
+  padding-bottom: 1em;
   list-style-type: lower-alpha;
-  counter-increment: item; */
+  counter-increment: item;
 }
 
 .citation li {
