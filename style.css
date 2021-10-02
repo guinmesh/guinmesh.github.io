@@ -95,10 +95,9 @@ ul {
   padding: 0;
 }
 
-.citation li::before {
-  content: counter(item) ") ";
+/* .citation li::before {
   list-style-type: lower-alpha;
-  counter-increment: item;
+  counter-increment: item; */
 }
 
 .citation li {
@@ -110,10 +109,10 @@ ul {
   color: #fff;
 }
 
-ol li {
+/* ol li {
   list-style-type: counter;
   padding-bottom: 1em;
-}
+} */
 
 /* ul.table {
   list-style-type: circle;
