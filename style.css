@@ -107,6 +107,10 @@ ul {
   padding-left: 12px;
 }
 
+.citation ol {
+  text-indent: -32px;
+}
+
 .citation-img {
   color: #fff;
 }
