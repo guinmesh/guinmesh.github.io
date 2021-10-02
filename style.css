@@ -99,7 +99,7 @@ ul {
   content: counter(item) ") ";
   padding-left: 30px;
   /* list-style-type: lower-alpha; */
-  counter-increment: item;
+  /* counter-increment: item; */
 }
 
 .citation li {
