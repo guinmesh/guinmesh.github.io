@@ -311,3 +311,8 @@ body .gist .gist-meta {
   width: 100%;
   float: left;
 }
+
+.vimeo {
+  float: left;
+  width: 70%;
+}
