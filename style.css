@@ -98,7 +98,7 @@ ul {
 .citation li::before {
   content: counter(item) ") ";
   padding-left: 30px;
-  list-style-type: lower-alpha;
+  /* list-style-type: lower-alpha; */
   counter-increment: item;
 }
 
