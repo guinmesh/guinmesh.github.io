@@ -7,33 +7,50 @@ body {
   height: 100%;
   --theme-ui-colors-brand-blue: #fff;
   color: #fff;
-  background-color: #1F18C0 !important;
+  background-color: white !important;
+  color: black;
+}
+
+p {
+  color: black;
 }
 
 h1 {
-  color: #fff;
+  color: red;
   font-size: 22pt;
-  padding-top: 30px;
+  margin: 2%;
+  margin-top: 20px;
 }
+
 .special-h2{
   margin-top:0;
 }
+
 h2 {
-  font-size: 18pt;
-  color: #fff;
+  font-size: 20pt;
+  color: red;
+  margin: 2%;
 /*   margin-top:0; */
 }
+
 h3 {
-  color: #fff;
+  color: red;
   font-style: italic;
+  margin: 2%;
+  font-size: 18pt;
+}
+
+h4{
+  color: red;
+  margin: 2%;
+  font-size: 16pt;
 }
 
 button {
   font-family: "Helvetica Neue", onospace;
-  background-color: #fff;
+  background-color: red;
   border: none;
-  color: #1F18C0;
-  background-color: #fff;
+  color: white;
   padding: 10px 10px;
   width: 100%;
   /*   text-align: center; */
@@ -47,13 +64,13 @@ button {
 p {
   font-size: 12pt;
   line-height: 18pt;
+  margin: 2%;
 }
 
 .left {
   width: 15%;
   padding: 1% 1% 1% 0;
   float: left;
-  display: inline-block;
   /*   background-color: red; */
 }
 
@@ -61,26 +78,15 @@ p {
   width: 15%;
   padding: 1%;
   float: left;
-  display: inline-block;
 }
 
 .right {
   width: 60%;
   padding: 1%;
   float: left;
-  display: inline-block;
 }
 
-.nav {
-  padding: 2%;
-  width: 26%;
-  height: 100%;
-  display: contents;
-  float: left;
-  /*     background:red; */
-}
-
-.content {
+#content {
   margin: 2%;
   padding: 2%;
   width: 50%;
@@ -90,16 +96,21 @@ p {
 
 /* list elements */
 
-ul {
-  margin: 0;
-  padding: 0;
+ol li {
+  list-style-type: decimal;
 }
 
-.citation li::before {
-  content: counter(item) ") ";
+ul li {
+  margin: 0;
+  padding: 0;
+  list-style-type: disc;
+}
+
+/* .citation li::before {
   padding-left: 30px;
-  /* list-style-type: lower-alpha; */
-  /* counter-increment: item; */
+  list-style-type: lower-alpha;
+  list-style-type: counter;
+  counter-increment: item;
 }
 
 .citation li {
@@ -107,13 +118,10 @@ ul {
   padding-left: 12px;
 }
 
-/* .citation ol {
+.citation ol {
   text-indent: -32px;
+  list-style-type: upper-roman;
 } */
-
-.citation-img {
-  color: #fff;
-}
 
 /* ol li {
   list-style-type: counter;
@@ -137,18 +145,18 @@ li.bullet {
 }
 
 li.bullet a {
-  color: #fff;
+  color: red;
 }
 
 li a {
-  color: #fff;
+  color: red;
   text-decoration: underline;
 }
 
 /* table styles */
 
 table, th, td {
-  border: 1px solid white;
+  border: 1px solid black;
   border-collapse: collapse;
 }
 
@@ -160,8 +168,7 @@ ul th, td {
 /* link decoration */
 
 a {
-  color: #fff !important;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -169,17 +176,18 @@ a:hover {
 }
 
 a:-webkit-any-link {
-  color: #fff;
+  color: red;
 }
 
 .nav a { 
-  color: white;
+  color: red;
   text-decoration: none;
 }
 
 .nav li {
-  color: white;
+  color: red;
   text-decoration: none;
+  margin-bottom: 10px;
 }
 
 iframe {
@@ -187,30 +195,21 @@ iframe {
   padding: 0;
   border: none;
   width: 100%;
-  /*   height: 400px; */
-  display: inline-block;
+  height: 400px;
   float: left;
   margin-bottom: 2%;
 }
 
 .full-width-box {
   width: 100%;
+  margin-right: 5%;
   margin-bottom: 2%;
   display: inline-block;
-  float: left;
 }
 
 img {
-  height: 600px;
+  height: 400px;
   display: inline-block;
-  float: left;
-  margin: 10px 10px 10px 0px;
-}
-
-/* images that are sketches */
-
-#sketch {
-  height: 800px;
 }
 
 body .gist .gist-file {
@@ -222,7 +221,7 @@ body .gist .gist-file {
 body .gist .gist-data {
   border-bottom: none;
   border-radius: 0;
-  background-color: #1F18C0;
+  background-color: white;
 }
 
 body .gist .blob-wrapper {
@@ -260,6 +259,8 @@ body .gist .gist-meta {
   display: none;
 }
 
+/* navigation */
+
 .nav-link {
   font-size: 18px;
   line-height: 27px;
@@ -267,8 +268,37 @@ body .gist .gist-meta {
 }
 .nav-link a,
 .nav-link a:visited {
-  color: #fff;
   text-decoration: none;
+}
+.nav-link a:hover {
+  text-decoration: underline;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.nav li {
+  list-style-type: none;
+}
+
+.nav {
+  padding: 2%;
+  margin: 2%;
+  width: 26%;
+  height: 100%;
+  float: left;
+  /*     background:red; */
+}
+
+.nav ul {
+  padding-left: 0px;
+}
+
+.nav h1 {
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #toggle {
@@ -315,10 +345,10 @@ body .gist .gist-meta {
 .fullwidth {
   width: 100%;
   float: left;
+  margin: 2%;
 }
 
 .vimeo {
   float: left;
-  display: inline-block;
   width: 100%;
 }
