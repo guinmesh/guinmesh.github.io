@@ -55,6 +55,13 @@ h4{
   font-size: 16pt;
 }
 
+h5 {
+  color: black;
+  margin: 2%;
+  font-size: 12pt;
+  font-style: italic;
+}
+
 button {
   font-family: "Helvetica Neue", monospace;
   background-color: red;
@@ -121,14 +128,14 @@ ul li {
   list-style-type: lower-alpha;
   list-style-type: counter;
   counter-increment: item;
-}
+} */
 
 .citation li {
   text-indent: -32px;
-  padding-left: 12px;
+  padding-left: 40px;
 }
 
-.citation ol {
+/* .citation ol {
   text-indent: -32px;
   list-style-type: upper-roman;
 } */
@@ -366,3 +373,4 @@ body .gist .gist-meta {
 .list2 li {
   list-style-type: circle;
 }
+
