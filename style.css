@@ -369,6 +369,7 @@ body .gist .gist-meta {
   width: 100%;
   float: left;
   margin: 2%;
+  text-align: center;
 }
 
 .list2 li {
