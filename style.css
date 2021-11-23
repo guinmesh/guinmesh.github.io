@@ -3,11 +3,11 @@
 body {
   font-family: "Helvetica Neue", monospace;
   margin: 2em;
-  width: 100%;
+  width: 90%;
   height: 100%;
   --theme-ui-colors-brand-blue: #fff;
   color: #fff;
-  background-color: white !important;
+  background-color: hsl(225, 75%, 92%) !important;
   color: black;
 }
 
@@ -16,14 +16,14 @@ p {
 }
 
 .caption {
-  line-height: 8pt;
+  line-height: 1.2em;
   padding-bottom: 25px;
   color: grey;
   text-align: center;
 }
 
 h1 {
-  color: red;
+  color: #002fa7;
   font-size: 22pt;
   margin: 2%;
   margin-top: 20px;
@@ -37,13 +37,13 @@ h1 {
 
 h2 {
   font-size: 20pt;
-  color: red;
+  color: #002fa7;
   margin: 2%;
 /*   margin-top:0; */
 }
 
 h3 {
-  color: red;
+  color: #002fa7;
   font-style: italic;
   margin: 2%;
   font-size: 18pt;
@@ -51,13 +51,13 @@ h3 {
 }
 
 h4{
-  color: red;
+  color: #002fa7;
   margin: 2%;
   font-size: 16pt;
 }
 
 h5 {
-  color: red;
+  color: #002fa7;
   margin: 2%;
   font-size: 12pt;
   font-style: italic;
@@ -65,7 +65,7 @@ h5 {
 
 button {
   font-family: "Helvetica Neue", monospace;
-  background-color: red;
+  background-color: #002fa7;
   border: none;
   color: white;
   padding: 10px 10px;
@@ -88,7 +88,7 @@ p {
   width: 15%;
   padding: 1% 1% 1% 0;
   float: left;
-  /*   background-color: red; */
+  /*   background-color: #002fa7; */
 }
 
 .center {
@@ -106,7 +106,7 @@ p {
 #content {
   margin: 2%;
   padding: 2%;
-  width: 50%;
+  /* width: 80%; */
   display: inline-block;
   /*   background-color:yellow; */
 }
@@ -115,6 +115,7 @@ p {
 
 ol li {
   list-style-type: decimal;
+  /* width: 80%; */
 }
 
 ul li {
@@ -122,6 +123,7 @@ ul li {
   padding: 0;
   line-height: 18pt;
   list-style-type: disc;
+  /* width: 80%; */
 }
 
 /* .citation li::before {
@@ -163,11 +165,11 @@ li.bullet {
 }
 
 li.bullet a {
-  color: red;
+  color: #002fa7;
 }
 
 li a {
-  color: red;
+  color: #002fa7;
   text-decoration: underline;
 }
 
@@ -194,16 +196,16 @@ a:hover {
 }
 
 a:-webkit-any-link {
-  color: red;
+  color: #002fa7;
 }
 
 .nav a { 
-  color: red;
+  color: #002fa7;
   text-decoration: none;
 }
 
 .nav li {
-  color: red;
+  color: #002fa7;
   text-decoration: none;
   margin-bottom: 10px;
 }
@@ -239,7 +241,7 @@ body .gist .gist-file {
 body .gist .gist-data {
   border-bottom: none;
   border-radius: 0;
-  background-color: white;
+  background-color: hsl(225, 75%, 92%);
 }
 
 body .gist .blob-wrapper {
@@ -350,7 +352,7 @@ body .gist .gist-meta {
 }
 
 .myBox {
-  /*   background: red; */
+  /*   background: #002fa7; */
 
   padding-left: 10px;
   padding-right: 10px;
@@ -377,7 +379,7 @@ body .gist .gist-meta {
 }
 
 #main {
-  width: 70%;
+  width: 80%;
 }
 
 audio {
