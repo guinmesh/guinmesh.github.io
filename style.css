@@ -1,7 +1,9 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: "Helvetica Neue", monospace;
+  font-family: rigid-square, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   margin: 2em;
   width: 90%;
   height: 100%;
@@ -250,7 +252,6 @@ body .gist .blob-wrapper {
 
 body .gist .highlight {
   background-color: transparent;
-  font-family: "Helvetica Neue", monospace;
   font-size: 14px;
 }
 
@@ -332,7 +333,9 @@ body .gist .gist-meta {
 
 @media only screen and (max-width: 600px) {
   body {
-    font-family: "Helvetica Neue", monospace;
+    font-family: rigid-square, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin: 1%;
     width: 98%;
     height: 100%;
