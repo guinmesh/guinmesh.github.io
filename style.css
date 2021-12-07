@@ -10,6 +10,8 @@ body {
   --theme-ui-colors-brand-blue: #fff;
   color: #fff;
   background-color: #002fa7 !important;
+  padding-left: 6vw;
+  padding-right: 6vw;
 }
 
 p {
@@ -109,12 +111,13 @@ p {
   float: left;
 }
 
-#content {
+.content {
   margin: 2%;
-  padding: 2%;
   /* width: 80%; */
   display: inline-block;
   /*   background-color:yellow; */
+  padding-left: 6vw;
+  padding-right: 6vw;
 }
 
 /* list elements */
@@ -286,17 +289,53 @@ body .gist .gist-meta {
 
 /* navigation */
 
+.nav-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  flex: 1 0 67%;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 1.9vw;
+  padding-bottom: 1.9vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+
 #logo {
+  max-width: 100%;
+  max-height: 128px;
   height: 10em;
   padding: 2%;
   display: block;
+}
+
+.nav-title {
+  font-family: pragmatica-extended;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: .01em;
+  text-transform: uppercase;
+  line-height: 1em;
+  font-size: 1.1rem;
+  padding-left: 1.6em;
 }
 
 .header-nav-wrapper {
   margin: 2%;
   /* display: inline-flex;
   flex-wrap: wrap; */
-  padding: 0.1em 0;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+
+.header-nav-wrapper a {
+  text-decoration: none;
+  backface-visibility: hidden;
+}
+
+a:focus-visible {
+  outline-offset: 1px;
 }
 
 .header-nav-wrapper a,
@@ -317,15 +356,14 @@ body .gist .gist-meta {
   /* display: inline-flex;
   flex-wrap: wrap;
   position: relative; */
-  padding: 1em;
-  width: 22%;
+  width: 30%;
   height: 100%;
   font-family: pragmatica-extended;
   font-weight: 700;
   font-style: normal;
   letter-spacing: .01em;
   text-transform: uppercase;
-  line-height: 1em;
+  line-height: 1.6em;
   font-size: 1.1rem;
 }
 
