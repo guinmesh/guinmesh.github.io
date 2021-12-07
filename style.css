@@ -9,67 +9,71 @@ body {
   height: 100%;
   --theme-ui-colors-brand-blue: #fff;
   color: #fff;
-  background-color: hsl(225, 75%, 92%) !important;
-  color: black;
+  background-color: #002fa7 !important;
 }
 
 p {
-  color: black;
+  color: #fff;
 }
 
 .caption {
   line-height: 1.2em;
   padding-bottom: 25px;
-  color: grey;
+  color: #fff;
   text-align: center;
 }
 
 h1 {
-  color: #002fa7;
+  color: #fff;
   font-size: 22pt;
   margin: 2%;
   margin-top: 20px;
 }
 
-.special-h2{
+.special-h2 {
   padding: 2%;
   margin: 2%;
   padding-top: 25%;
+  font-family: rigid-square, sans-serif;
 }
 
 h2 {
   font-size: 20pt;
-  color: #002fa7;
+  color: #fff;
   margin: 2%;
 /*   margin-top:0; */
+  font-family: rigid-square, sans-serif;
 }
 
 h3 {
-  color: #002fa7;
+  color: #fff;
   font-style: italic;
   margin: 2%;
   font-size: 18pt;
   padding-top: 15px;
+  font-family: rigid-square, sans-serif;
 }
 
 h4{
-  color: #002fa7;
+  color: #fff;
   margin: 2%;
   font-size: 16pt;
+  font-family: rigid-square, sans-serif;
 }
 
 h5 {
-  color: #002fa7;
+  color: #fff;
   margin: 2%;
   font-size: 12pt;
   font-style: italic;
+  font-family: rigid-square, sans-serif;
 }
 
 button {
-  font-family: "Helvetica Neue", monospace;
-  background-color: #002fa7;
+  font-family: rigid-square, sans-serif;
+  background-color: hsl(225, 75%, 92%);
   border: none;
-  color: white;
+  color: #002fa7;
   padding: 10px 10px;
   width: 100%;
   /*   text-align: center; */
@@ -167,18 +171,18 @@ li.bullet {
 }
 
 li.bullet a {
-  color: #002fa7;
+  color: #fff;
 }
 
 li a {
-  color: #002fa7;
+  color: #fff;
   text-decoration: underline;
 }
 
 /* table styles */
 
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid #fff;
   border-collapse: collapse;
 }
 
@@ -198,16 +202,16 @@ a:hover {
 }
 
 a:-webkit-any-link {
-  color: #002fa7;
+  color: #fff;
 }
 
 .nav a { 
-  color: #002fa7;
+  color: #fff;
   text-decoration: none;
 }
 
 .nav li {
-  color: #002fa7;
+  color: #fff;
   text-decoration: none;
   margin-bottom: 10px;
 }
@@ -243,7 +247,7 @@ body .gist .gist-file {
 body .gist .gist-data {
   border-bottom: none;
   border-radius: 0;
-  background-color: hsl(225, 75%, 92%);
+  background-color: #fff;
 }
 
 body .gist .blob-wrapper {
@@ -367,7 +371,7 @@ body .gist .gist-meta {
   margin-top: 10px;
   margin-bottom: 10px;
 
-  border: 1px solid black;
+  border: 1px solid #fff;
 }
 
 .fullwidth {
