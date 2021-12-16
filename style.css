@@ -230,14 +230,14 @@ iframe {
 }
 
 .full-width-box {
-  width: 100%;
   margin-right: 5%;
   margin-bottom: 2%;
   display: inline-block;
 }
 
 img {
-  height: 400px;
+  height: 425px;
+  width: 800px;
   display: inline-block;
 }
 
@@ -415,7 +415,6 @@ a:focus-visible {
 }
 
 .fullwidth {
-  width: 100%;
   float: left;
   margin: 2%;
   text-align: center;
