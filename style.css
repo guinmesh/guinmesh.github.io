@@ -237,7 +237,6 @@ iframe {
 
 img {
   height: 425px;
-  width: 800px;
   display: inline-block;
 }
 
@@ -417,6 +416,7 @@ a:focus-visible {
 .fullwidth {
   float: left;
   margin: 2%;
+  width: 100%;
   text-align: center;
 }
 
