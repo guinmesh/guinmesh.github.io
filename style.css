@@ -9,7 +9,7 @@ body {
   height: 100%;
   --theme-ui-colors-brand-blue: #fff;
   color: #fff;
-  background-color: #002fa7 !important;
+  background-color: #1F18C0 !important;
   padding-left: 6vw;
   padding-right: 6vw;
 }
@@ -75,7 +75,7 @@ button {
   font-family: rigid-square, sans-serif;
   background-color: hsl(225, 75%, 92%);
   border: none;
-  color: #002fa7;
+  color: #1F18C0;
   padding: 10px 10px;
   width: 100%;
   /*   text-align: center; */
@@ -96,7 +96,7 @@ p {
   width: 15%;
   padding: 1% 1% 1% 0;
   float: left;
-  /*   background-color: #002fa7; */
+  /*   background-color: #1F18C0; */
 }
 
 .center {
@@ -398,7 +398,7 @@ a:focus-visible {
 }
 
 .myBox {
-  /*   background: #002fa7; */
+  /*   background: #1F18C0; */
 
   padding-left: 10px;
   padding-right: 10px;
